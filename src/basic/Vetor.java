@@ -4,7 +4,7 @@ public class Vetor {
     public static void main(String[] args) {
 
         int[] colecaoInteiros = {1, 2, 3, 4, 5, 6};
-        int [] numeros = new int[5];
+        int[] numeros = new int[5];
 
         boolean[] colecaoBooleans = {true, true, false};
 
