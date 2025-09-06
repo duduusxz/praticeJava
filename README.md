@@ -1,4 +1,4 @@
-# JAVA
+# praticeJava
 Neste repositório estará meu aprendizado de Java para estudo como linguagem de backend.
 
 Tecnologias Usadas:
