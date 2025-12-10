@@ -4,15 +4,13 @@ public class Main {
     public static void main(String[] args) {
         Controle controleVideoGame = new Controle();
 
-        controleVideoGame.modelo = "xBox360";
         controleVideoGame.tipo = "VideoGame";
-        controleVideoGame.cor = "Preto";
-        controleVideoGame.numBotoes = 16;
-        controleVideoGame.peso = 0.300f;
+        controleVideoGame.modelo = "xBox360";
+        //controleVideoGame.cor = "Preto";
+        //controleVideoGame.peso = 0.300f;
 
-        controleVideoGame.ligar();
+        //não está no mesmo pacote, por isso o protected não funciona
+
         controleVideoGame.status();
-        controleVideoGame.jogar();
-        controleVideoGame.desligar();
     }
 }

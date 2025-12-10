@@ -3,10 +3,10 @@ package classes;
 public class Controle {
     public String tipo;
     public String modelo;
-    public String cor;
-    public int numBotoes;
-    public float peso;
-    public boolean ligado;
+    private String cor;
+    private int numBotoes;
+    protected float peso;
+    protected boolean ligado;
 
     public void status(){
         System.out.println("Tipo: " + this.tipo);
@@ -22,12 +22,12 @@ public class Controle {
         System.out.println("Seu controle foi ligado");
     }
 
-    public void desligar(){
+    protected void desligar(){
         this.ligado = false;
         System.out.println("Seu controle foi desligado");
     }
 
-    public void jogar(){
+    protected void jogar(){
         if(this.ligado == true){
             System.out.println("Você está jogando");
         } else {
