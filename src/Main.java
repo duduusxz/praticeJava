@@ -1,16 +1,18 @@
-import classes.Caneta;
+import classes.Controle;
 
 public class Main {
     public static void main(String[] args) {
-        Caneta caneta1 = new Caneta();
+        Controle controleVideoGame = new Controle();
 
-        caneta1.modelo = "Bic";
-        caneta1.cor = "Verde";
-        caneta1.ponta = 0.2;
-        caneta1.tampar();
-        caneta1.status();
-        caneta1.escrever();
-        caneta1.destampar();
-        caneta1.escrever();
+        controleVideoGame.modelo = "xBox360";
+        controleVideoGame.tipo = "VideoGame";
+        controleVideoGame.cor = "Preto";
+        controleVideoGame.numBotoes = 16;
+        controleVideoGame.peso = 0.300f;
+
+        controleVideoGame.ligar();
+        controleVideoGame.status();
+        controleVideoGame.jogar();
+        controleVideoGame.desligar();
     }
 }
