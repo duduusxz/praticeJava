@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("This is my Main.");
+        ControleRemoto c = new ControleRemoto();
+
+        c.ligar();
+        c.maisVolume();
+        c.ligarMudo();
+        c.play();
+        c.abrirMenu();
     }
 }
