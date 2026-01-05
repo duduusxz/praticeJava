@@ -63,7 +63,7 @@ public class Lutador implements Combatente {
         return peso;
     }
 
-    public void setPeso(float peso) {
+    private void setPeso(float peso) {
         this.peso = peso;
         setCategoria();
 
