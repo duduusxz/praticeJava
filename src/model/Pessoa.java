@@ -1,8 +1,6 @@
 package model;
 
-import org.w3c.dom.ls.LSOutput;
-
-public class Pessoa {
+public abstract class Pessoa {
     private String nome;
     private int idade;
     private String sexo;
@@ -41,7 +39,7 @@ public class Pessoa {
         this.sexo = sexo;
     }
 
-    public void fazerAniversario(){
+    public final void fazerAniversario(){
         this.setIdade(this.getIdade() + 1);
     }
 

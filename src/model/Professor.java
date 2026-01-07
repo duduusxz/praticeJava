@@ -1,6 +1,6 @@
 package model;
 
-public class Professor extends Funcionario {
+public final class Professor extends Funcionario {
     private String especialidade;
     private int salario;
 

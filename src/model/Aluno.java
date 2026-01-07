@@ -33,6 +33,10 @@ public class Aluno extends Pessoa{
 
     }
 
+    public void pagarMensalidade(){
+
+    }
+
     @Override
     public void status(){
         super.status();
